@@ -1,5 +1,7 @@
 # SingleTableImporter
 
+June 2026: This repository is being archived after many years without new contributions.
+
 This class is intended as a simple importer for moving source data into a single MySQL table. It provides a few automations, such as text alterations, and date alterations, which is why it might be better than simply importing the file with phpMyAdmin or something similar. It supports currently supports CSV files and single-worksheet Excel spreadsheets, and assumes that the first row of data corresponds exactly to the column names in the MySQL database.
 
 ## Dependencies
